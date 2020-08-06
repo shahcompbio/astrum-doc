@@ -1,7 +1,7 @@
 module.exports = {
   title: "Astrum",
   tagline: "Shah Lab visualization",
-  url: "https://spectrum.mskcc.org/docs",
+  url: "https://spectrum.mskcc.org",
   baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/favicon.ico",
@@ -70,13 +70,7 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+            "https://github.com/shahcompbio/astrum-doc/edit/master/docs/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
