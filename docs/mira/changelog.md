@@ -7,7 +7,7 @@ All notable changes to Mira will be documented here. The unreleased version is c
 
 ## 1.0.0
 
-## Changed
+## Changed (released - Aug 6, 2020)
 
 - ElasticSearch input data now several tsv, json files
 - ElasticSearch schema now nests gene records inside cell records
