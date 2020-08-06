@@ -7,7 +7,6 @@ module.exports = {
       "mira/deploy",
       "mira/loading-data",
       "mira/elasticsearch",
-      "mira/graphql",
     ],
   },
 };
