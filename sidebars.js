@@ -8,5 +8,6 @@ module.exports = {
       "mira/loading-data",
       "mira/elasticsearch",
     ],
+    Alhena: ["alhena/overview", "alhena/changelog", "alhena/loading-data"],
   },
 };
