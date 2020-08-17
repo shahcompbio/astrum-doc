@@ -230,13 +230,14 @@ REACT_APP_HYDRA_URL=<!!! HOSTNAME>
 ```
 
 :::note
+
 This assumes that you want this deployed in a subdomain from the host URL (like foo.bar/mira). If you want this to be the root application, then you do not need the `REACT_APP_BASENAME` variable, and the `PUBLIC_URL` variable can just be the host name.
 :::
 
 Then build the dockerfile:
 
 ```
-docker build . -t mira-react --build-arg BUILD_ENV=<!!! name of env file>
+docker build . -t mira-react --build-arg BUILD_FILE=<!!! name of env file>
 ```
 
 #### Deploying on webserver
@@ -291,7 +292,7 @@ upstream alhena-db {
 server {
         listen 80;
         listen [::]:80;
-        server_name     40.87.0.178;
+        server_name     <!!! SERVER NAME>;
         return         301 https://$server_name$request_uri;
 }
 server {
