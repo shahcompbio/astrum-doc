@@ -6,8 +6,13 @@ module.exports = {
       "mira/changelog",
       "mira/deploy",
       "mira/loading-data",
-      "mira/elasticsearch",
+      "mira/elasticsearch"
     ],
-    Alhena: ["alhena/overview", "alhena/changelog", "alhena/loading-data"],
-  },
+    Alhena: [
+      "alhena/overview",
+      "alhena/changelog",
+      "alhena/loading-data",
+      "alhena/deploy"
+    ]
+  }
 };
