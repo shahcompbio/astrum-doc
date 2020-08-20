@@ -139,7 +139,7 @@ instances:
       - 127.0.0.1
 ```
 
-On the Elasticsearch VM, add the following env file and replace the password
+On the Elasticsearch VM, add the following .env file and replace the password
 
 ```
 COMPOSE_PROJECT_NAME=es
@@ -322,8 +322,14 @@ Build the dockerfile in the `alhena-graphql` repository:
 
 ```
 cd alhena-graphql
-
 docker build . -t alhena-graphql
+```
+
+Tag & push the docker image to your dockerhub where it can be pulled from anywhere and deployed
+
+```
+docker tag alhena-graphql <!!! Your dockerhub>/alhena-graphql
+docker push <!!! Your dockerhub>/alhena-graphql
 ```
 
 #### Building React
@@ -343,6 +349,13 @@ Then build the dockerfile:
 
 ```
 docker build . -t alhena-react --build-arg BUILD_ENV=<!!! name of env file>
+```
+
+Tag & push the docker image to your dockerhub where it can be pulled from anywhere and deployed
+
+```
+docker tag alhena-graphql <!!! Your dockerhub>/alhena-graphql
+docker push <!!! Your dockerhub>/alhena-graphql
 ```
 
 #### GraphQL environment
