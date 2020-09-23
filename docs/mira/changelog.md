@@ -5,6 +5,12 @@ sidebar_label: Changelog
 
 All notable changes to Mira will be documented here. The unreleased version is contained in the `staging` branch. The current released version is in `master`.
 
+### 1.1
+
+## Changed (released - Sept 24, 2020)
+
+- ElasticSearch loading now calculates the UMAP bins and loads them for each colour category, speeding up the UI loading
+
 ## 1.0.0
 
 ## Changed (released - Aug 6, 2020)

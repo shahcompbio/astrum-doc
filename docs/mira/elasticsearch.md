@@ -74,3 +74,16 @@ Genes:
     "log_count": Float
 }
 ```
+
+### `dashboard_bins_<dashboard_id`
+
+Data for each UMAP bin in a particular dashboard. This bins the UMAP plot into 100x100 buckets, and loads one record per bin for every colour category in the dashboard.
+
+```
+{
+    "x": Int,
+    "y": Int,
+    "label": String
+    "value": String | Num
+}
+```

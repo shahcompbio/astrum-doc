@@ -9,6 +9,7 @@ Using the loaders will populate Elasticsearch with:
 
 - Cell type (plus probabilities) and UMAP dimension data for each cell
 - Gene expression (normalized log counts) for each cell
+- Binned UMAP data across all cells
 - Analysis metadata (patient ID and sample IDs)
 - Marker genes for that specific dashboard
 
